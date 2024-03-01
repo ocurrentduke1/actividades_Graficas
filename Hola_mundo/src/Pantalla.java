@@ -5,6 +5,11 @@ public class Pantalla extends JPanel {
 
     private Image imagen;
 
+    public Pantalla() {
+        // Carga la imagen desde el archivo especificado
+        imagen = Toolkit.getDefaultToolkit().getImage("C:\\Users\\vdavi\\Desktop\\actividades graficas\\Hola_mundo\\imagenes\\arbol.jpg");
+    }
+
     public void paint(Graphics g){
         super.paint(g);
         Dimension tam = new Dimension(imagen.getWidth(this), imagen.getHeight(this));

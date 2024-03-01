@@ -5,10 +5,9 @@ public class visorImagen extends JFrame {
     private JScrollPane panel;
     private Pantalla pantalla;
 
-    public visorImagen(String archivo){
+    public visorImagen(){
         super("visor imagen");
-
-        Image img = Toolkit.getDefaultToolkit().getImage(archivo);
+        Image img = Toolkit.getDefaultToolkit().getImage("C:\\Users\\vdavi\\Desktop\\actividades graficas\\Hola_mundo\\imagenes\\arbol.jpg");
         pantalla = new Pantalla();
         panel = new JScrollPane(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED, JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);
         getContentPane().add(panel);
@@ -20,7 +19,6 @@ public class visorImagen extends JFrame {
     }
 
     public static void main(String[] args) {
-        String archivoImagen = ""; // Cambia esto a la ruta correcta de tu imagen
-        visorImagen visor = new visorImagen(archivoImagen);
+         new visorImagen();
     }
 }
