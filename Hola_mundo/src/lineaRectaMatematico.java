@@ -7,7 +7,7 @@ public class lineaRectaMatematico extends JFrame {
     private Graphics graPixel;
     //constructor de ventana a dibujar
     public lineaRectaMatematico() {
-        setTitle("Ventana");
+        setTitle("Ventana Metodo Matematico");
         setVisible(true);
         setLayout(null);
         setSize(500, 500);

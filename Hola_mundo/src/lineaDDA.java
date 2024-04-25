@@ -9,7 +9,7 @@ public class lineaDDA extends JFrame {
     private Graphics graPixel;
     //constructor de ventana a dibujar
     public lineaDDA() {
-        setTitle("Ventana");
+        setTitle("Ventana DDA");
         setVisible(true);
         setLayout(null);
         setSize(500, 500);

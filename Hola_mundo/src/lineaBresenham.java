@@ -8,7 +8,7 @@ public class lineaBresenham extends JFrame {
     private Graphics graPixel;
 
     public lineaBresenham() {
-        setTitle("Ventana");
+        setTitle("Ventana Bresenham");
         setVisible(true);
         setLayout(null);
         setSize(500, 500);
